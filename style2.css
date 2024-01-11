@@ -1,0 +1,75 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    width: 100%;
+     
+    background-color: #1a022cc7;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.maincontainer{
+
+    height:80%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color:white; */
+    border-radius: 20px;
+
+}
+.searchBar{
+    height: 10%;
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayBox{
+    background-color: rgba(255, 255, 255, 0.178);
+    height: 60%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#input{
+    width: 40%;
+    height: 55%;
+    padding-left: 1%;
+    font-size: medium;
+    margin-right: 2%;
+}
+
+#button{
+    width: 20%;
+    height: 50%;
+    font-size: 1.2rem;
+    border-radius: 10%;
+}
+
+.box{
+  width: 100%;
+  height: 33%;
+  display: flex;
+  align-items: center;
+    font-size: 2rem;
+}
+#box1,#box3{
+    justify-content: space-evenly;
+}
+
+#box2{
+    justify-content: center;
+}
+
+.image{
+    width: 100%;
+}
